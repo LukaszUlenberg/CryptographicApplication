@@ -282,7 +282,7 @@ namespace CryptographicApplication
             }
         }
 
-        private void buttonImportPublicKe_Click(object sender, EventArgs e)
+        private void buttonImportPublicKey_Click(object sender, EventArgs e)
         {
             try
             {
