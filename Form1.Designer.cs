@@ -36,7 +36,7 @@
             _encryptOpenFileDialog = new OpenFileDialog();
             _decryptOpenFileDialog = new OpenFileDialog();
             buttonGetPrivateKey = new Button();
-            buttonImportPublicKe = new Button();
+            buttonImportPublicKey = new Button();
             buttonExit = new Button();
             SuspendLayout();
             // 
@@ -106,15 +106,15 @@
             buttonGetPrivateKey.UseVisualStyleBackColor = true;
             buttonGetPrivateKey.Click += buttonGetPrivateKey_Click;
             // 
-            // buttonImportPublicKe
+            // buttonImportPublicKey
             // 
-            buttonImportPublicKe.Location = new Point(393, 172);
-            buttonImportPublicKe.Name = "buttonImportPublicKe";
-            buttonImportPublicKe.Size = new Size(219, 66);
-            buttonImportPublicKe.TabIndex = 6;
-            buttonImportPublicKe.Text = "Importowanie klucza publicznego";
-            buttonImportPublicKe.UseVisualStyleBackColor = true;
-            buttonImportPublicKe.Click += buttonImportPublicKe_Click;
+            buttonImportPublicKey.Location = new Point(393, 172);
+            buttonImportPublicKey.Name = "buttonImportPublicKey";
+            buttonImportPublicKey.Size = new Size(219, 66);
+            buttonImportPublicKey.TabIndex = 6;
+            buttonImportPublicKey.Text = "Importowanie klucza publicznego";
+            buttonImportPublicKey.UseVisualStyleBackColor = true;
+            buttonImportPublicKey.Click += buttonImportPublicKey_Click;
             // 
             // buttonExit
             // 
@@ -132,7 +132,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(688, 453);
             Controls.Add(buttonExit);
-            Controls.Add(buttonImportPublicKe);
+            Controls.Add(buttonImportPublicKey);
             Controls.Add(buttonGetPrivateKey);
             Controls.Add(buttonExportPublicKey);
             Controls.Add(buttonDecryptFile);
@@ -155,7 +155,7 @@
         private OpenFileDialog _encryptOpenFileDialog;
         private OpenFileDialog _decryptOpenFileDialog;
         private Button buttonGetPrivateKey;
-        private Button buttonImportPublicKe;
+        private Button buttonImportPublicKey;
         private Button buttonExit;
     }
 }
